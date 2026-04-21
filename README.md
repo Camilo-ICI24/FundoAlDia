@@ -1,54 +1,55 @@
 # FundoAlDia
 
-**Proyecto:** Diseño de Experiencia de Usuario (UX) - Fase 1: Investigación y Definición
-**Contexto:** Gestión de Horas Extras y Permisos para Trabajadores de Temporada - La Araucania
+**Project:** User Experience Design (UX) - Phase 1: Research and Definition
+**Context:** Overtime and Leave Management for Seasonal Workers - La Araucania
 
 ---
 
-## 1. Problema
+## 1. Problem
 
-Trabajadores agrícolas y forestales de temporada necesitan solicitar permisos, revisar horas y liquidaciones desde celulares básicos, sin acceso a computador y con conectividad limitada. La app debe asumir baja alfabetización digital como condicion de diseño.
+Seasonal agricultural and forestry workers need to request leave, review hours and pay statements from basic mobile phones, without access to a computer and with limited connectivity. The app must assume low digital literacy as a design condition.
 
-> *"Como temporero que trabaja en una frutícola y no tengo computador, necesito solicitar un permiso por enfermedad, revisar mis horas trabajadas del mes y ver mi liquidacion desde mi celular basico, para no tener que ir fisicamente a la oficina en mi dia libre."*
+> *"As a seasonal worker who works in a fruit company and does not have a computer, I need to request sick leave, review my worked hours for the month and see my pay statement from my basic mobile phone, so I do not have to physically go to the office on my day off."*
 
-**Restricciones:** Teléfonos gama baja | Conectividad intermitente | Alfabetización digital baja
+**Constraints:** Low-end phones | Intermittent connectivity | Low digital literacy
 
 ---
 
 ## 2. User Personas
 
 ### Rosa (41, Angol)
-- Temporera experta. Busca transparencia en pagos y evitar errores en liquidaciones.
-- Archivo: `docs/uxpersona_rosa_fundoaldia.png`
+- Expert seasonal worker. Seeks transparency in payments and to avoid errors in pay statements.
+- File: `docs/uxpersona_rosa_fundoaldia.png`
 
 ### Juan (22, Temuco rural)
-- Temporero joven con baja alfabetización digital. Miedo a equivocarse al solicitar permisos.
-- Archivo: `docs/uxpersona_juan_fundoaldia..png`
+- Young seasonal worker with low digital literacy. Fear of making mistakes when requesting leave.
+- File: `docs/uxpersona_juan_fundoaldia..png`
 
 ### Carlos (36, Supervisor)
-- Supervisor que gestiona cuadrillas. Necesita aprobar permisos rápidamente y reducir procesos manuales.
-- Archivo: `docs/uxpersona_carlos_fundoaldia..png`
+- Supervisor who manages crews. Needs to approve leave quickly and reduce manual processes.
+- File: `docs/uxpersona_carlos_fundoaldia..png`
 
 ---
 
-## 3. Arquitectura de la Información
+## 3. Information Architecture
 
-**Archivo:** `docs/Mapa Conceptual Esquema - FundoAlDia.png`
+**File:** `docs/Mapa Conceptual Esquema - FundoAlDia.png`
 
-Estructura principal:
-- **HORAS:** Consulta diaria y mensual
-- **PAGOS:** Liquidación actual e historial
-- **PERMISOS:** Solicitud y estado
-- **TURNOS:** Visualizacion y cambios
-- **MI CUENTA:** Perfil y configuración
+Main structure:
+- **HOURS:** Daily and monthly consultation
+- **PAYMENTS:** Current pay statement and history
+- **LEAVE:** Request and status
+- **SHIFTS:** Visualization and changes
+- **MY ACCOUNT:** Profile and settings
+
+---
+
+## 4. Next steps
+
+1. Low-fidelity wireframes (flow "Request Leave").
+2. Simplified visual design of "Pay Statement".
+3. Offline operation strategy (Offline-First).
 
 ---
 
-## 4. Próximos pasos
-
-1. Wireframes de baja fidelidad (flujo "Solicitar Permiso").
-2. Diseno visual simplificado de "Liquidacion".
-3. Estrategia de funcionamiento sin conexion (Offline-First).
-
----
-*Curso: Diseño de Experiencia de Usuario | 2026*
+*Course: User Experience Design | 2026*
