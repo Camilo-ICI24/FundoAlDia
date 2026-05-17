@@ -87,7 +87,7 @@ In order to obtain a better visual reference on the design of our product compar
 
 For the benchmark presented below, four applications and websites related to appointment scheduling and payment management were considered: Rex+, Talana, Breik, and Buk. Aspects such as visual design, information display, accessibility, and both online and offline functionality were analyzed.
 
-<img width="1920" height="1080" alt="Benchmark (1)" src="https://github.com/user-attachments/assets/47234d38-3869-4d39-b588-4b3d224274aa" />
+<img width="1920" height="1080" alt="Benchmark (2)" src="https://github.com/user-attachments/assets/45105a9b-0f72-440c-9eed-ea76bec2a05a" />
 
 ---
 
