@@ -103,9 +103,10 @@ The selected platforms are the following:
 
 ### 5.1 Navigation Flow
 
-A visual diagram illustrating how the application services connect and operate internally.
+A visual diagram that illustrates how users navigate through the application and how the different screens and functionalities are connected.
 
-<img width="1920" height="1080" alt="Mapa Conceptual Esquema - FundoAlDia" src="https://github.com/user-attachments/assets/3bddc235-fb90-4b4b-8340-5fbb53c3730c" />
+<img width="789" height="479" alt="navigation_flow_definite" src="https://github.com/user-attachments/assets/b85a26fb-be49-4ce0-b172-454ed49aea3d" />
+
 
 ---
 
