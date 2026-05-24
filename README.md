@@ -15,9 +15,9 @@ Offline time, shift and pay management system for new and veteran seasonal worke
 - [3. Strategy Phase](#3-strategy-phase)
   - [3.1 Value Proposition Canvas](#31-value-proposition-canvas)
   - [3.2 UX Persona](#32-ux-persona)
-  - [3.3 Benchmarking](#33-benchmarking)
 
 - [4. Scope Phase](#4-scope-phase)
+  - [4.1 Benchmarking](#41-benchmarking)
 
 - [5. Structure Phase](#5-structure-phase)
   - [5.1 Navigation Flow](#51-navigation-flow)
@@ -46,9 +46,9 @@ This service offers offline functionality due to the limited coverage in the are
 
 ## 2. Team Members
 
-- Camilo Cifuentes  
-- Felipe Márquez  
-- Nicolás Sandoval  
+- Camilo Cifuentes: Project Manager
+- Felipe Márquez: Analyst
+- Nicolás Sandoval: Designer
 
 ---
 
@@ -71,29 +71,30 @@ With the aim of gaining a closer look at the problems that seasonal workers cons
 - The supervisor
 
 #### Veteran seasonal worker: Rosa (41, Angol)
-<img width="1920" height="1080" alt="uxpersona_rosa_fundoaldia" src="https://github.com/user-attachments/assets/03f49a60-5ab3-4a86-8779-2c684596bd7b" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/9bdc6039-17c9-4075-84b9-0f5b6a597890" />
+
 
 #### Novice seasonal worker: Juan (22, Temuco)
-<img width="1920" height="1080" alt="uxpersona_juan_fundoaldia" src="https://github.com/user-attachments/assets/87cb5b39-1fec-4868-8ff1-2c1e49723235" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/1b977afc-1dbf-44bf-936f-192114de4d93" />
+
 
 #### Supervisor: Carlos (36, Temuco)
-<img width="1920" height="1080" alt="uxpersona_carlos_fundoaldia" src="https://github.com/user-attachments/assets/9e1e1db8-4f45-4a2f-968b-861279b0011f" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/0a65e8e3-fd2d-4c26-b938-31a0db34b7d9" />
+
 
 ---
 
-### 3.3 Benchmarking
+
+## 4. Scope Phase
+
+### 4.1 Benchmarking
 
 In order to obtain a better visual reference on the design of our product compared to existing applications on this market sector, an informative benchmark was carried out to identify main functionalities and characteristics that could be integrated into our project development.
 
 For the benchmark presented below, four applications and websites related to appointment scheduling and payment management were considered: Rex+, Talana, Breik, and Buk. Aspects such as visual design, information display, accessibility, and both online and offline functionality were analyzed.
 
-<img width="1920" height="1080" alt="Benchmark (2)" src="https://github.com/user-attachments/assets/45105a9b-0f72-440c-9eed-ea76bec2a05a" />
+<img width="863" height="479" alt="benchmark" src="https://github.com/user-attachments/assets/c17cca43-0a2d-4bb2-b28c-b37f83909a9b" />
 
----
-
-## 4. Scope Phase
-
-TBA
 
 ---
 
