@@ -9,21 +9,15 @@ Offline time, shift and pay management system for new and veteran seasonal worke
 - [1. Introduction](#1-introduction)
   - [1.1 The problem context](#11-the-problem-context)
   - [1.2 The proposed solution](#12-the-proposed-solution)
-
 - [2. Team Members](#2-team-members)
-
 - [3. Strategy Phase](#3-strategy-phase)
   - [3.1 Value Proposition Canvas](#31-value-proposition-canvas)
   - [3.2 UX Persona](#32-ux-persona)
-
 - [4. Scope Phase](#4-scope-phase)
   - [4.1 Benchmarking](#41-benchmarking)
-
 - [5. Structure Phase](#5-structure-phase)
   - [5.1 Navigation Flow](#51-navigation-flow)
-
 - [6. Skeleton Phase](#6-skeleton-phase)
-
 - [7. Surface Phase](#7-surface-phase)
 
 ---
@@ -46,9 +40,9 @@ This service offers offline functionality due to the limited coverage in the are
 
 ## 2. Team Members
 
-- Camilo Cifuentes: Project Manager
-- Felipe Márquez: Analyst
-- Nicolás Sandoval: Designer
+- Camilo Cifuentes: _Project Manager_
+- Felipe Márquez: _Analyst_
+- Nicolás Sandoval: _Designer_
 
 ---
 
@@ -91,7 +85,14 @@ With the aim of gaining a closer look at the problems that seasonal workers cons
 
 In order to obtain a better visual reference on the design of our product compared to existing applications on this market sector, an informative benchmark was carried out to identify main functionalities and characteristics that could be integrated into our project development.
 
-For the benchmark presented below, four applications and websites related to appointment scheduling and payment management were considered: Rex+, Talana, Breik, and Buk. Aspects such as visual design, information display, accessibility, and both online and offline functionality were analyzed.
+For this benchmark, four platforms related to shift scheduling, payment management, and employee administration were selected. These platforms were analyzed considering aspects such as visual hierarchy, information organization, accessibility, navigation clarity, and online/offline functionality.
+
+The selected platforms are the following:
+- **Rex+**: Online portal for Human Resources management, centralized in the automation of key tasks for the company, such as salary calculation, electronic signing of documents, attendance control, among others. The public link for this service can be found [here](https://rexmas.com/).
+- **Talana**: Cloud-based software designed to digitize and automate Human Resources management, allowing for the review of aspects such as payroll, attendance tracking, digital document signing, vacation scheduling, and performance evaluation. It is frequently offered as a mobile application, enabling employees to perform all the described actions directly from their phones. More information about this service can be found on their [website](https://web.talana.com/).
+- **Breik**: Cloud-based software designed to automate and optimize work shift scheduling. It allows for the intelligent management of employee schedules, ensuring compliance with labor regulations. Features include smart calendars for displaying, modifying, and creating schedules, integration with current labor laws, real-time analytics, and push notifications for employees.
+- **Buk**: Human Resources management platform that centralizes and automates processes associated with the employee lifecycle. It helps companies simplify administrative tasks and enhance talent development in one place. Features include payroll processing, an employee portal, and digital document signing. The public link to this site can be accesed from [here](https://www.buk.cl/).
+
 
 <img width="863" height="479" alt="benchmark" src="https://github.com/user-attachments/assets/c17cca43-0a2d-4bb2-b28c-b37f83909a9b" />
 
