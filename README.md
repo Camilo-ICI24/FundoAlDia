@@ -133,13 +133,13 @@ In turn, all the low-fidelity wireframe screenshots can be found in a PDF file i
 
 ### 7.1. Interface Evolution
 
-### Screen Evolution
+#### Screen Evolution
 
-### Removal of the Account Creation Screen
+##### Removal of the Account Creation Screen
 
 One of the first changes made was the removal of the “Crear cuenta” screen. This decision was taken because, in a real-world context, companies are usually responsible for internally registering their employees, making this functionality unnecessary within the main user flow.
 
-### General Navigation Changes
+##### General Navigation Changes
 
 The header was redesigned to include:
 
@@ -147,27 +147,17 @@ The header was redesigned to include:
 * A shortcut to the employee profile.
 * A calendar component to allow easier navigation between months and years.
 
-#### Low fi
-
 <img width="683" height="145" alt="image" src="https://github.com/user-attachments/assets/60adc601-5308-4b70-818d-a2784b7c2232" />
-
-#### High fi
-
 <img width="405" height="114" alt="image" src="https://github.com/user-attachments/assets/ffa39ba0-218b-4bb1-bced-b560f511433c" />
 
 
 Additionally, the bottom navigation menu was redesigned using more representative icons and labels to improve usability and clarity.
 
-#### Low fi
-
 <img width="812" height="121" alt="image" src="https://github.com/user-attachments/assets/5c7bc6ea-7e89-43bc-97a9-af8be386b0a5" />
-
-#### High fi
-
 <img width="859" height="134" alt="image" src="https://github.com/user-attachments/assets/dd05e11f-2d3b-4b29-aa2c-013891891ce8" />
 
 
-### “Mis turnos” Screen
+#### “Mis turnos” Screen
 
 The “Mis turnos” screen was redesigned because the original low-fidelity version felt visually crowded.
 
@@ -178,27 +168,16 @@ The main changes included:
 * Relocating the calendar to the upper section of the screen.
 * Replacing the “Semanal / Mensual” dropdown with direct action buttons in the header.
 
-#### Low fi
-
 <img width="571" height="643" alt="image" src="https://github.com/user-attachments/assets/3e1be7a8-9645-4259-8e48-ac8ca2a545e2" />
-
-#### High fi
-
 <img width="316" height="759" alt="image" src="https://github.com/user-attachments/assets/a6167f8a-8e05-43e5-b0f4-d745c1e88746" />
-
 
 In the monthly view, a legend indicating the presence of multi-shifts was also added.
 
-#### Low fi
-
 <img width="483" height="469" alt="image" src="https://github.com/user-attachments/assets/a02bb737-d09e-45f8-a04f-7ce3d4724fcf" />
-
-#### High fi
-
 <img width="468" height="512" alt="image" src="https://github.com/user-attachments/assets/4c4d1445-8ea1-4efb-8f16-a29375f8099b" />
 
 
-### “Ver horas” Screen
+#### “Ver horas” Screen
 
 The worked hours section was simplified to directly display the detected observations for the month, removing unnecessary elements such as:
 
@@ -211,16 +190,11 @@ The redesign also:
 * Improved the visualization of worked hours and overtime hours.
 * Added a status label indicating whether the month is still in progress or already completed.
 
-#### Low fi
-
 <img width="375" height="694" alt="image" src="https://github.com/user-attachments/assets/5c3c4ccb-da92-4ac6-a2b9-cb7b77e3d960" />
-
-#### High fi
-
 <img width="363" height="664" alt="image" src="https://github.com/user-attachments/assets/7e0072c5-af24-4733-9f8c-1716ca615f0f" />
 
 
-### “Permisos” Screen
+#### “Permisos” Screen
 
 The permissions screen was redesigned by introducing:
 
@@ -235,28 +209,18 @@ Pending permissions were visually prioritized by placing them at the top of the 
 
 Additionally, the “Pedir permiso nuevo” button was replaced with a floating “+” button, following common mobile application design patterns.
 
-#### Low fi
-
 <img width="461" height="511" alt="image" src="https://github.com/user-attachments/assets/c4025185-0dd1-462c-82ae-b8e90a5345e2" />
-
-#### High fi
-
 <img width="334" height="780" alt="image" src="https://github.com/user-attachments/assets/46c31820-7712-48d0-b49c-1f5622849f69" />
 
 
-### Permission Request Flow
+#### Permission Request Flow
 
 The permission request and confirmation flow remained mostly unchanged. However, the step indicator was redesigned, replacing the previous bars with connected circles to provide a clearer representation of progress.
 
-#### Low fi
-
 <img width="333" height="103" alt="image" src="https://github.com/user-attachments/assets/caeccc23-db52-40b3-bfa5-843f75e12872" />
-
-#### High fi
-
 <img width="452" height="116" alt="image" src="https://github.com/user-attachments/assets/9c65e50d-3194-4517-85d9-1290da300257" />
 
-### “Mi liquidación” Screen
+#### “Mi liquidación” Screen
 
 This screen received smaller improvements, including:
 
@@ -265,16 +229,11 @@ This screen received smaller improvements, including:
 * Display of the payment transfer date.
 
 
-#### Low fi
-
 <img width="443" height="485" alt="image" src="https://github.com/user-attachments/assets/1ba5a5d0-0a1a-4c69-922e-e63aed51bcad" />
-
-#### High fi
-
 <img width="362" height="812" alt="image" src="https://github.com/user-attachments/assets/76f737c3-9fdd-4811-955d-775b4e9611d8" />
 
 
-### Shift Change Screens
+#### Shift Change Screens
 
 The screens related to shift changes were reorganized to improve comfort and readability for mobile users.
 
@@ -289,16 +248,11 @@ was replaced with:
 
 This better represents the real workflow, where supervisor approval is still required after the employee accepts the proposal.
 
-#### Low fi
-
 <img width="411" height="536" alt="image" src="https://github.com/user-attachments/assets/08118213-bf0d-4681-a76a-e01fec054266" />
-
-#### High fi
-
 <img width="343" height="750" alt="image" src="https://github.com/user-attachments/assets/3417a63c-2cc7-4c09-bccd-ec8818ef2405" />
 
 
-### Home Screen
+#### Home Screen
 
 The Home screen was redesigned to prioritize the most relevant information for employees, including:
 
@@ -314,12 +268,8 @@ Quick access buttons were also added for:
 * Pedir permiso
 * Mi liquidación
 
-#### Low fi
 
 <img width="396" height="667" alt="image" src="https://github.com/user-attachments/assets/a0f6f53a-e520-4b27-ab0d-744e5ea00722" />
-
-#### High fi
-
 <img width="365" height="710" alt="image" src="https://github.com/user-attachments/assets/39ca27e7-42be-4025-8287-17b55e601107" />
 
 ---
