@@ -18,6 +18,7 @@ Offline time, shift and pay management system for new and veteran seasonal worke
 - [5. Structure Phase](#5-structure-phase)
   - [5.1 Navigation Flow](#51-navigation-flow)
 - [6. Skeleton Phase](#6-skeleton-phase)
+  - [6.1 Low-fidelity Wireframes](#61-low-fidelity-wireframes)
 - [7. Surface Phase](#7-surface-phase)
 
 ---
@@ -112,7 +113,17 @@ A visual diagram that illustrates how users navigate through the application and
 
 ## 6. Skeleton Phase
 
-TBA
+### 6.1 Low-fidelity Wireframes
+
+Based on the navigation flow designed in the previous phase, the team developed an initial version of the core screens that the application would include in the form of low-fidelity wireframes.
+
+These wireframes were created with the purpose of defining the general structure of the interface, the organization of information, and the interaction flow between screens before moving into high-fidelity design stages.
+
+<img width="654" height="448" alt="Wireframes" src="https://github.com/user-attachments/assets/b6a39a50-85ce-4fb7-80ba-91e1419b9ede" />
+
+The low-fidelity wireframes can be found in full detail on the first page of the related Figma file, at the following [link](https://www.figma.com/design/wuJbb1K24XtzBXkliPJkgB/FundoAlDia-Wireframes?node-id=0-1&t=y3gDiFBq6lAq6MmB-1).
+
+In turn, all the low-fidelity wireframe screenshots can be found in a PDF file in the documents section.
 
 ---
 
