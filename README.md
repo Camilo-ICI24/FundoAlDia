@@ -20,6 +20,8 @@ Offline time, shift and pay management system for new and veteran seasonal worke
 - [6. Skeleton Phase](#6-skeleton-phase)
   - [6.1 Low-fidelity Wireframes](#61-low-fidelity-wireframes)
 - [7. Surface Phase](#7-surface-phase)
+  - [7.1 Interface Evolution](#71-interface-evolution)
+  - [7.2. High-fidelity Wireframes](#72-high-fidelity-wireframes)
 
 ---
 
@@ -233,7 +235,7 @@ Quick access buttons were also added for:
 
 ---
 
-### 7.2. High fidelity Wireframes
+### 7.2. High-fidelity Wireframes
 
 After designing the low-fidelity wireframes, and following multiple iterations, revisions, and feedback sessions, the team developed the high-fidelity prototypes for the application. This process considered aspects such as visual identity, interface consistency, design uniformity, and the overall user experience across the application.
 
