@@ -123,7 +123,7 @@ These wireframes were created with the purpose of defining the general structure
 
 The low-fidelity wireframes can be found in full detail on the first page of the related Figma file, at the following [link](https://www.figma.com/design/wuJbb1K24XtzBXkliPJkgB/FundoAlDia-Wireframes?node-id=0-1&t=y3gDiFBq6lAq6MmB-1).
 
-In turn, all the low-fidelity wireframe screenshots can be found in a PDF file in the documents section.
+In turn, all the low-fidelity wireframe screenshots can be found in a PDF file in the documents section, found [here](https://github.com/Camilo-ICI24/FundoAlDia/blob/c39ecd962da4ae921c586dc1c7ad91275e14bbbf/docs/FundoAlDia%20-%20Wireframes%20Lo-Fi.pdf).
 
 ---
 
