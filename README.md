@@ -155,6 +155,7 @@ The header was redesigned to include:
 
 <img width="405" height="114" alt="image" src="https://github.com/user-attachments/assets/ffa39ba0-218b-4bb1-bced-b560f511433c" />
 
+
 Additionally, the bottom navigation menu was redesigned using more representative icons and labels to improve usability and clarity.
 
 #### Low fi
@@ -164,6 +165,7 @@ Additionally, the bottom navigation menu was redesigned using more representativ
 #### High fi
 
 <img width="859" height="134" alt="image" src="https://github.com/user-attachments/assets/dd05e11f-2d3b-4b29-aa2c-013891891ce8" />
+
 
 ### “Mis turnos” Screen
 
@@ -184,6 +186,7 @@ The main changes included:
 
 <img width="316" height="759" alt="image" src="https://github.com/user-attachments/assets/a6167f8a-8e05-43e5-b0f4-d745c1e88746" />
 
+
 In the monthly view, a legend indicating the presence of multi-shifts was also added.
 
 #### Low fi
@@ -193,6 +196,7 @@ In the monthly view, a legend indicating the presence of multi-shifts was also a
 #### High fi
 
 <img width="468" height="512" alt="image" src="https://github.com/user-attachments/assets/4c4d1445-8ea1-4efb-8f16-a29375f8099b" />
+
 
 ### “Ver horas” Screen
 
@@ -214,6 +218,7 @@ The redesign also:
 #### High fi
 
 <img width="363" height="664" alt="image" src="https://github.com/user-attachments/assets/7e0072c5-af24-4733-9f8c-1716ca615f0f" />
+
 
 ### “Permisos” Screen
 
@@ -238,6 +243,7 @@ Additionally, the “Pedir permiso nuevo” button was replaced with a floating 
 
 <img width="334" height="780" alt="image" src="https://github.com/user-attachments/assets/46c31820-7712-48d0-b49c-1f5622849f69" />
 
+
 ### Permission Request Flow
 
 The permission request and confirmation flow remained mostly unchanged. However, the step indicator was redesigned, replacing the previous bars with connected circles to provide a clearer representation of progress.
@@ -258,6 +264,7 @@ This screen received smaller improvements, including:
 * Better categorization between earnings and deductions.
 * Display of the payment transfer date.
 
+
 #### Low fi
 
 <img width="443" height="485" alt="image" src="https://github.com/user-attachments/assets/1ba5a5d0-0a1a-4c69-922e-e63aed51bcad" />
@@ -265,6 +272,7 @@ This screen received smaller improvements, including:
 #### High fi
 
 <img width="362" height="812" alt="image" src="https://github.com/user-attachments/assets/76f737c3-9fdd-4811-955d-775b4e9611d8" />
+
 
 ### Shift Change Screens
 
@@ -288,6 +296,7 @@ This better represents the real workflow, where supervisor approval is still req
 #### High fi
 
 <img width="343" height="750" alt="image" src="https://github.com/user-attachments/assets/3417a63c-2cc7-4c09-bccd-ec8818ef2405" />
+
 
 ### Home Screen
 
