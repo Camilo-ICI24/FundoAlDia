@@ -129,6 +129,25 @@ In turn, all the low-fidelity wireframe screenshots can be found in a PDF file i
 
 ## 7. Surface Phase
 
+### 7.1. High fidelity Wireframes
+
+After designing the low-fidelity wireframes, and following multiple iterations, revisions, and feedback sessions, the team developed the high-fidelity prototypes for the application. This process considered aspects such as visual identity, interface consistency, design uniformity, and the overall user experience across the application.
+
+The prototypes include a color palette designed for the target users, as well as typography, icons, and interactive components, allowing for a clearer visualization of the final appearance of the proposed solution.
+
+<img width="201" height="569" alt="Captura desde 2026-05-24 23-12-54" src="https://github.com/user-attachments/assets/7f77a549-1b74-47cf-b65d-7e7cb4480954" />
+<img width="201" height="474" alt="Captura desde 2026-05-24 23-12-25" src="https://github.com/user-attachments/assets/a060bc12-263c-4b7b-a0e4-6c2ba4c16565" />
+<img width="201" height="437" alt="Captura desde 2026-05-24 23-11-47" src="https://github.com/user-attachments/assets/e2b5d814-5ec5-4b71-b876-5588a32d4d02" />
+<img width="201" height="557" alt="Captura desde 2026-05-24 23-10-43" src="https://github.com/user-attachments/assets/06eecf9b-acad-49e8-906b-39edbebb0268" />
+
+The high-definition interfaces can be found in their entirety in a PDF file, the link to which is provided here.
+
+Additionally, they can also be found in the same Figma project where the low-fi wireframes were designed, the link to which is provided in the previous section.
+
+---
+
+### 7.2. Interface Evolution
+
 TBA
 
 ---
