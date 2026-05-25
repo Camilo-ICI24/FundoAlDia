@@ -129,7 +129,111 @@ In turn, all the low-fidelity wireframe screenshots can be found in a PDF file i
 
 ## 7. Surface Phase
 
-### 7.1. High fidelity Wireframes
+### 7.1. Interface Evolution
+
+# Screen Evolution
+
+## Removal of the Account Creation Screen
+
+One of the first changes made was the removal of the “Crear cuenta” screen. This decision was taken because, in a real-world context, companies are usually responsible for internally registering their employees, making this functionality unnecessary within the main user flow.
+
+## General Navigation Changes
+
+The header was redesigned to include:
+
+* The current section title.
+* A shortcut to the employee profile.
+* A calendar component to allow easier navigation between months and years.
+
+Additionally, the bottom navigation menu was redesigned using more representative icons and labels to improve usability and clarity.
+
+## “Mis turnos” Screen
+
+The “Mis turnos” screen was redesigned because the original low-fidelity version felt visually crowded.
+
+The main changes included:
+
+* Improved shift visualization.
+* Support for displaying multiple shifts within the same day.
+* Relocating the calendar to the upper section of the screen.
+* Replacing the “Semanal / Mensual” dropdown with direct action buttons in the header.
+
+In the monthly view, a legend indicating the presence of multi-shifts was also added.
+
+## “Ver horas” Screen
+
+The worked hours section was simplified to directly display the detected observations for the month, removing unnecessary elements such as:
+
+* The option to view every single day.
+* General issue indicators.
+
+The redesign also:
+
+* Kept the option to emit a “claim” in case the employee disagrees with an observation.
+* Improved the visualization of worked hours and overtime hours.
+* Added a status label indicating whether the month is still in progress or already completed.
+
+## “Permisos” Screen
+
+The permissions screen was redesigned by introducing:
+
+* A search feature by permission type.
+* Categorization by status:
+
+  * Pendientes
+  * Aprobados
+  * Rechazados
+
+Pending permissions were visually prioritized by placing them at the top of the screen.
+
+Additionally, the “Pedir permiso nuevo” button was replaced with a floating “+” button, following common mobile application design patterns.
+
+## Permission Request Flow
+
+The permission request and confirmation flow remained mostly unchanged. However, the step indicator was redesigned, replacing the previous bars with connected circles to provide a clearer representation of progress.
+
+## “Mi liquidación” Screen
+
+This screen received smaller improvements, including:
+
+* Month navigation.
+* Better categorization between earnings and deductions.
+* Display of the payment transfer date.
+
+## Shift Change Screens
+
+The screens related to shift changes were reorganized to improve comfort and readability for mobile users.
+
+Additionally, in the accepted shift change screen, the message:
+
+* “Has cambiado turno con...”
+
+was replaced with:
+
+* “Has aceptado la propuesta de...”
+* “Pendiente de aprobación”
+
+This better represents the real workflow, where supervisor approval is still required after the employee accepts the proposal.
+
+## Home Screen
+
+The Home screen was redesigned to prioritize the most relevant information for employees, including:
+
+* Current day shifts.
+* Monthly summary.
+* Upcoming payment.
+* Permissions.
+* Shift changes.
+
+Quick access buttons were also added for:
+
+* Mis turnos
+* Pedir permiso
+* Mi liquidación
+
+---
+
+### 7.2. High fidelity Wireframes
 
 After designing the low-fidelity wireframes, and following multiple iterations, revisions, and feedback sessions, the team developed the high-fidelity prototypes for the application. This process considered aspects such as visual identity, interface consistency, design uniformity, and the overall user experience across the application.
 
@@ -143,12 +247,6 @@ The prototypes include a color palette designed for the target users, as well as
 The high-definition interfaces can be found in their entirety in a PDF file, the link to which is provided here.
 
 Additionally, they can also be found in the same Figma project where the low-fi wireframes were designed, the link to which is provided in the previous section.
-
----
-
-### 7.2. Interface Evolution
-
-TBA
 
 ---
 
