@@ -131,13 +131,13 @@ In turn, all the low-fidelity wireframe screenshots can be found in a PDF file i
 
 ### 7.1. Interface Evolution
 
-# Screen Evolution
+### Screen Evolution
 
-## Removal of the Account Creation Screen
+### Removal of the Account Creation Screen
 
 One of the first changes made was the removal of the “Crear cuenta” screen. This decision was taken because, in a real-world context, companies are usually responsible for internally registering their employees, making this functionality unnecessary within the main user flow.
 
-## General Navigation Changes
+### General Navigation Changes
 
 The header was redesigned to include:
 
@@ -147,7 +147,7 @@ The header was redesigned to include:
 
 Additionally, the bottom navigation menu was redesigned using more representative icons and labels to improve usability and clarity.
 
-## “Mis turnos” Screen
+### “Mis turnos” Screen
 
 The “Mis turnos” screen was redesigned because the original low-fidelity version felt visually crowded.
 
@@ -160,7 +160,7 @@ The main changes included:
 
 In the monthly view, a legend indicating the presence of multi-shifts was also added.
 
-## “Ver horas” Screen
+### “Ver horas” Screen
 
 The worked hours section was simplified to directly display the detected observations for the month, removing unnecessary elements such as:
 
@@ -173,7 +173,7 @@ The redesign also:
 * Improved the visualization of worked hours and overtime hours.
 * Added a status label indicating whether the month is still in progress or already completed.
 
-## “Permisos” Screen
+### “Permisos” Screen
 
 The permissions screen was redesigned by introducing:
 
@@ -188,11 +188,11 @@ Pending permissions were visually prioritized by placing them at the top of the 
 
 Additionally, the “Pedir permiso nuevo” button was replaced with a floating “+” button, following common mobile application design patterns.
 
-## Permission Request Flow
+### Permission Request Flow
 
 The permission request and confirmation flow remained mostly unchanged. However, the step indicator was redesigned, replacing the previous bars with connected circles to provide a clearer representation of progress.
 
-## “Mi liquidación” Screen
+### “Mi liquidación” Screen
 
 This screen received smaller improvements, including:
 
@@ -200,7 +200,7 @@ This screen received smaller improvements, including:
 * Better categorization between earnings and deductions.
 * Display of the payment transfer date.
 
-## Shift Change Screens
+### Shift Change Screens
 
 The screens related to shift changes were reorganized to improve comfort and readability for mobile users.
 
@@ -215,7 +215,7 @@ was replaced with:
 
 This better represents the real workflow, where supervisor approval is still required after the employee accepts the proposal.
 
-## Home Screen
+### Home Screen
 
 The Home screen was redesigned to prioritize the most relevant information for employees, including:
 
