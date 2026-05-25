@@ -335,7 +335,7 @@ The prototypes include a color palette designed for the target users, as well as
 <img width="201" height="437" alt="Captura desde 2026-05-24 23-11-47" src="https://github.com/user-attachments/assets/e2b5d814-5ec5-4b71-b876-5588a32d4d02" />
 <img width="201" height="557" alt="Captura desde 2026-05-24 23-10-43" src="https://github.com/user-attachments/assets/06eecf9b-acad-49e8-906b-39edbebb0268" />
 
-The high-definition interfaces can be found in their entirety in a PDF file, the link to which is provided here.
+The high-definition interfaces can be found in their entirety in a PDF file, the link to which is provided [here](https://github.com/Camilo-ICI24/FundoAlDia/blob/ef05199b51fa17fc30051e4a6b5a58698ee4c7bd/docs/Hi-Fi%20Wireframes.pdf).
 
 Additionally, they can also be found in the same Figma project where the low-fi wireframes were designed, the link to which is provided in the previous section.
 
