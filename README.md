@@ -321,7 +321,11 @@ TBA
 |---|---|---|
 | Navbar is poorly implemented. | The navbar is located at the bottom of the screen, so it's not visible unless scrolling. | Convert the bottom navigation bar into a fixed and sticky component at the edge of the window, always visible without needing to scroll. |
 
-TBA
+<img width="381" height="714" alt="navbar" src="https://github.com/user-attachments/assets/56ae0df8-fbe0-44ee-9568-a0ceb2dc9ae3" />
+
+To resolve this issue, the application's navbar was updated, defining it as a static component on the screen. This way, the shortcuts don't disappear from the user's view while scrolling.
+
+<img width="417" height="846" alt="image" src="https://github.com/user-attachments/assets/fdcb0832-6523-4a4a-841f-45e7ee5b89a3" />
 
 ### 8.3. Non-static header.
 
