@@ -22,6 +22,12 @@ Offline time, shift and pay management system for new and veteran seasonal worke
 - [7. Surface Phase](#7-surface-phase)
   - [7.1 Interface Evolution](#71-interface-evolution)
   - [7.2. High-fidelity Wireframes](#72-high-fidelity-wireframes)
+- [8. Heuristic Evaluation Process](#8-heuristic-evaluation-process)
+  - [8.1. Text size issue](#81-text-size-issue)
+  - [8.2. Navbar implemented incorrectly](#82-navbar-implemented-incorrectly)
+  - [8.3. Non-static header](#83-non-static-header)
+  - [8.4. Unjustified color palette](#84-unjustified-color-palette)
+  - [8.5. Ambiguous visual element](#85-ambiguous-visual-element)
 
 ---
 
@@ -290,5 +296,51 @@ The high-definition interfaces can be found in their entirety in a PDF file, the
 Additionally, they can also be found in the same Figma project where the low-fi wireframes were designed, the link to which is provided in the previous section.
 
 ---
+
+## 8. Heuristic Evaluation Process
+
+The initial visual proposal for the solution was presented in a first progress phase for evaluation regarding usability and design for end users. This process identified several areas where the proposals lacked robustness, providing opportunities for improvement and iterations with the goal of delivering a better user experience.
+
+The project's heuristic evaluation was conducted by an independent team, taking into account Nielsen's design principles. This involved identifying design problems in order of criticality and providing potential solutions as feedback. Based on the results, the team prioritized the five most severe problems for further iteration of the proposed solution. These changes are detailed below:
+
+### 8.1. Text size issue
+
+|  Problem | Description | Solution |
+|---|---|---|
+| Texts too small (no adjustment option). | Small text can cause frustration and anger, especially for people with vision problems. | Implement responsive typography with accessible minimum size (16px on mobile) and allow adjustment from system settings or internal font scale selector. |
+
+TBA
+
+### 8.2. Navbar implemented incorrectly
+
+|  Problem | Description | Solution |
+|---|---|---|
+| Navbar is poorly implemented. | The navbar is located at the bottom of the screen, so it's not visible unless scrolling. | Convert the bottom navigation bar into a fixed and sticky component at the edge of the window, always visible without needing to scroll. |
+
+TBA
+
+### 8.3. Non-static header.
+
+|  Problem | Description | Solution |
+|---|---|---|
+| Non-static top bar. | When scrolling down, the top bar disappears. | Apply smooth scrolling with reappearing on scroll up or keep it fixed (sticky top) at all times, preventing the main controls from being out of the user's view. |
+
+TBA
+
+### 8.4. Unjustified color palette
+
+|  Problem | Description | Solution |
+|---|---|---|
+| Poor choice of colors. | The background uses an unusual color; red can cause anxiety in some people and contrasts poorly with other elements. | Replace red with neutral colors or highly legible institutional tones (i.e.: white, light gray, serenity blue), reserving red exclusively for error messages or warnings. Ensure a minimum contrast ratio of 4.5:1 between text and background according to WCAG. |
+
+TBA
+
+### 8.5. Ambiguous visual element
+
+|  Problem | Description | Solution |
+|---|---|---|
+| "Modify Information" button or text; can't tell if it's a button or just text. | There is no typical box to signal to the user that this section is clickable. | Apply standard visual affordances: visible border, shaded or filled background, pointer cursor, and clear label (e.g., "Modify >" or pencil icon). Avoid making actionable elements appear as plain text without any distinguishing shape or shading. |
+
+TBA
 
 *Course: User Experience Design | 2026*
