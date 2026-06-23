@@ -333,7 +333,12 @@ To resolve this issue, the application's navbar was updated, defining it as a st
 |---|---|---|
 | Non-static top bar. | When scrolling down, the top bar disappears. | Apply smooth scrolling with reappearing on scroll up or keep it fixed (sticky top) at all times, preventing the main controls from being out of the user's view. |
 
-TBA
+<img width="420" height="401" alt="topbar-se-va" src="https://github.com/user-attachments/assets/12d4b760-c882-4eb8-adbb-2bf80661dbf3" />
+
+As with the non-static navbar, this problem was solved by converting the application header into a static component within each screen, varying between sections.
+
+<img width="410" height="438" alt="image" src="https://github.com/user-attachments/assets/a17f4519-46db-4ec2-94ae-9d985bd21dfe" />
+
 
 ### 8.4. Unjustified color palette
 
