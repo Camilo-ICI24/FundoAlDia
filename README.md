@@ -325,7 +325,8 @@ TBA
 
 To resolve this issue, the application's navbar was updated, defining it as a static component on the screen. This way, the shortcuts don't disappear from the user's view while scrolling.
 
-<img width="417" height="846" alt="image" src="https://github.com/user-attachments/assets/fdcb0832-6523-4a4a-841f-45e7ee5b89a3" />
+<img width="401" height="802" alt="image" src="https://github.com/user-attachments/assets/a63102e3-4a0f-4cee-8017-245663ae737f" />
+
 
 ### 8.3. Non-static header.
 
@@ -346,7 +347,13 @@ As with the non-static navbar, this problem was solved by converting the applica
 |---|---|---|
 | Poor choice of colors. | The background uses an unusual color; red can cause anxiety in some people and contrasts poorly with other elements. | Replace red with neutral colors or highly legible institutional tones (i.e.: white, light gray, serenity blue), reserving red exclusively for error messages or warnings. Ensure a minimum contrast ratio of 4.5:1 between text and background according to WCAG. |
 
-TBA
+<img width="203" height="470" alt="mala eleccion de colores" src="https://github.com/user-attachments/assets/69d910f3-2a74-47c1-9756-b17078cec97e" />
+
+According to WCAG accessibility guidelines, the team reserved the use of red for error contexts, warnings, or actions such as declining turn changes, avoiding its use in situations where it could convey an incorrect or ambiguous meaning. Furthermore, information does not depend solely on color to be understood by the user. The use of red was changed to other, more friendly colors according to the context.
+
+<img width="317" height="692" alt="image" src="https://github.com/user-attachments/assets/2559dcbe-551d-479a-af55-50a22dcf2056" />
+
+
 
 ### 8.5. Ambiguous visual element
 
