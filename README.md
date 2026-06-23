@@ -116,6 +116,10 @@ A visual diagram that illustrates how users navigate through the application and
 
 <img width="789" height="479" alt="navigation_flow_definite" src="https://github.com/user-attachments/assets/b85a26fb-be49-4ce0-b172-454ed49aea3d" />
 
+Additionally, as an implementation for the second phase, a separate navigation flow was developed for the administrator profile.
+
+<img width="1641" height="958" alt="Navigation Flow - Admin - FundoAlDia" src="https://github.com/user-attachments/assets/9d31d5ba-53f8-4151-993a-91697e105c8d" />
+
 
 ---
 
