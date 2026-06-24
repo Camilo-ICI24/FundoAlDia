@@ -316,7 +316,9 @@ The project's heuristic evaluation was conducted by an independent team, taking 
 <img width="411" height="825" alt="texto pequeño" src="https://github.com/user-attachments/assets/f5d8606a-8a99-4c0a-bb7f-b1555178675d" />
 <img width="360" height="781" alt="image" src="https://github.com/user-attachments/assets/3100adb2-6720-4597-b6ad-1616008a3664" />
 
-The issue of the size of the characters displayed on the screen was resolved by adjusting the font size to a larger value (approximately 14 to 16 pixels) to turn it visible. Additionally, since this might not be sufficient for users with visual impairments or low vision, the team implemented an option to increase the font size in the user settings (see section 9. Accesibility).
+The issue was resolved by increasing the base font size and standardizing the typographic system across the application. This decision was made based on findings from both heuristic evaluation and early feedback, where users experienced difficulties reading small text, particularly in dense information screens. Small font sizes increased visual effort and reduced readability, especially in scenarios involving smaller screens or suboptimal viewing conditions. As a result, the interface was adjusted to ensure a minimum readable size that supports comfortable interaction without forcing users to zoom or strain visually.
+
+In addition, a font scaling feature was implemented to support different user needs, particularly for users with low vision or reading difficulties. This enhances accessibility by allowing personalization of text size, ensuring that the interface adapts to the user rather than forcing a fixed layout.
 
 
 ### 8.2. Navbar implemented incorrectly
@@ -328,7 +330,9 @@ The issue of the size of the characters displayed on the screen was resolved by 
 <img width="381" height="714" alt="navbar" src="https://github.com/user-attachments/assets/56ae0df8-fbe0-44ee-9568-a0ceb2dc9ae3" />
 <img width="401" height="802" alt="image" src="https://github.com/user-attachments/assets/a63102e3-4a0f-4cee-8017-245663ae737f" />
 
-To resolve this issue, the application's navbar was updated, defining it as a static component on the screen. This way, the shortcuts don't disappear from the user's view while scrolling.
+To resolve this issue, the team redesigned the navigation system in order to ensure the consistent visibility of key actions across all screens. This iteration was based on the results of a heuristic usability evaluation, which revealed that users experienced reduced efficiency due to the need to scroll to access navigation shortcuts, leading to frustration as they had to scroll to the bottom to find them.
+
+By making the navbar a fixed and always-visible component, the interface reduces interaction cost and improves task efficiency, allowing users to navigate between sections more quickly and without losing context.
 
 
 ### 8.3. Non-static header.
@@ -340,7 +344,9 @@ To resolve this issue, the application's navbar was updated, defining it as a st
 <img width="420" height="401" alt="topbar-se-va" src="https://github.com/user-attachments/assets/12d4b760-c882-4eb8-adbb-2bf80661dbf3" />
 <img width="410" height="438" alt="image" src="https://github.com/user-attachments/assets/a17f4519-46db-4ec2-94ae-9d985bd21dfe" />
 
-As with the non-static navbar, this problem was solved by converting the application header into a static component within each screen, varying between sections.
+By ensuring persistent visibility of the top header across all screens, this problem was solved by aligning its behavior with usability principles related to navigation consistency and user orientation within the interface.
+
+According to the results of the heuristic evaluation, the disappearance of the main controls during scrolling reduced usability and increased the cognitive effort required to navigate between sections. By implementing a sticky header, the interface retains contextual information and improves overall navigation efficiency.
 
 
 ### 8.4. Unjustified color palette
@@ -352,7 +358,9 @@ As with the non-static navbar, this problem was solved by converting the applica
 <img width="203" height="470" alt="mala eleccion de colores" src="https://github.com/user-attachments/assets/69d910f3-2a74-47c1-9756-b17078cec97e" />
 <img width="358" height="782" alt="image" src="https://github.com/user-attachments/assets/95a14ef5-f086-48b4-8031-021f99421bf9" />
 
-According to WCAG accessibility guidelines, the team reserved the use of red for error contexts, warnings, or actions such as declining turn changes, avoiding its use in situations where it could convey an incorrect or ambiguous meaning. Furthermore, information does not depend solely on color to be understood by the user. The use of red was changed to other, more friendly colors according to the context.
+In order to address this issue, the team redefined the application’s color system to improve both readability and semantic clarity. The color palette is now used consistently with its intended functional meaning, particularly reserving red for error and warning states, which helps prevent ambiguity in user interpretation.
+
+This iteration is based on, and follows WCAG accessibility guidelines related to color contrast and the principle that information should not rely solely on color to be understood. By that, the updated interface improves visual clarity, reduces potential cognitive load, and enhances accessibility for users with different visual conditions and device qualities.
 
 
 ### 8.5. Ambiguous visual element
@@ -364,7 +372,9 @@ According to WCAG accessibility guidelines, the team reserved the use of red for
 <img width="516" height="805" alt="MODIFICAR" src="https://github.com/user-attachments/assets/4c525cf5-98aa-4c5b-b939-56caafb965a4" /> 
 <img width="360" height="783" alt="image" src="https://github.com/user-attachments/assets/d007cbe5-dd7d-4104-9ef6-8f0f83a902fd" />
 
-The element was redesigned using a button-like appearance, including visible borders, increased contrast, and a clearer visual hierarchy, allowing users to immediately recognize it as an interactive component.
+The element was redesigned to improve its visual affordance and interactive clarity, introducing clearer button-like characteristics such as borders, improved contrast, and stronger visual hierarchy, enabling users to immediately recognize it as an actionable component.
+
+This change improves usability by reducing ambiguity and increasing interaction discoverability, ensuring that users can confidently identify clickable elements without prior learning or guessing.
 
 ### 8.6. No administrator profile
 
@@ -375,8 +385,9 @@ The element was redesigned using a button-like appearance, including visible bor
 <img width="377" height="827" alt="image" src="https://github.com/user-attachments/assets/eaad0155-29fb-448c-bfff-c60aacf05c7d" />
 <img width="378" height="827" alt="image" src="https://github.com/user-attachments/assets/8c524179-6202-4209-83e2-97d30f8526da" />
 
+During early project feedback, the lack of administrator view was highlighted, remarking that only the seasonal worker flow had been implemented, leaving the administrative role unaddressed or undefined.
 
-Part of the feedback received during the first progress report was that only the seasonal worker's view was built, not the administrator's. To fix this issue, new screens were developed specifically for administrators, including features such as viewing the seasonal worker performance dashboard, contract status, received permits, shift change requests, and other functionalities.
+To resolve this, a new set of screens was designed and implemented to support the administrator’s tasks, including access to worker performance information, contract status tracking, permit management, and shift coordination features. This iteration completes the system’s role-based structure and ensures that both user perspectives are properly supported within the application.
 
 ---
 
