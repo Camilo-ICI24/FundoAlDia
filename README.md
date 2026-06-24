@@ -322,10 +322,9 @@ TBA
 | Navbar is poorly implemented. | The navbar is located at the bottom of the screen, so it's not visible unless scrolling. | Convert the bottom navigation bar into a fixed and sticky component at the edge of the window, always visible without needing to scroll. |
 
 <img width="381" height="714" alt="navbar" src="https://github.com/user-attachments/assets/56ae0df8-fbe0-44ee-9568-a0ceb2dc9ae3" />
+<img width="401" height="802" alt="image" src="https://github.com/user-attachments/assets/a63102e3-4a0f-4cee-8017-245663ae737f" />
 
 To resolve this issue, the application's navbar was updated, defining it as a static component on the screen. This way, the shortcuts don't disappear from the user's view while scrolling.
-
-<img width="401" height="802" alt="image" src="https://github.com/user-attachments/assets/a63102e3-4a0f-4cee-8017-245663ae737f" />
 
 
 ### 8.3. Non-static header.
@@ -335,10 +334,9 @@ To resolve this issue, the application's navbar was updated, defining it as a st
 | Non-static top bar. | When scrolling down, the top bar disappears. | Apply smooth scrolling with reappearing on scroll up or keep it fixed (sticky top) at all times, preventing the main controls from being out of the user's view. |
 
 <img width="420" height="401" alt="topbar-se-va" src="https://github.com/user-attachments/assets/12d4b760-c882-4eb8-adbb-2bf80661dbf3" />
+<img width="410" height="438" alt="image" src="https://github.com/user-attachments/assets/a17f4519-46db-4ec2-94ae-9d985bd21dfe" />
 
 As with the non-static navbar, this problem was solved by converting the application header into a static component within each screen, varying between sections.
-
-<img width="410" height="438" alt="image" src="https://github.com/user-attachments/assets/a17f4519-46db-4ec2-94ae-9d985bd21dfe" />
 
 
 ### 8.4. Unjustified color palette
@@ -348,11 +346,9 @@ As with the non-static navbar, this problem was solved by converting the applica
 | Poor choice of colors. | The background uses an unusual color; red can cause anxiety in some people and contrasts poorly with other elements. | Replace red with neutral colors or highly legible institutional tones (i.e.: white, light gray, serenity blue), reserving red exclusively for error messages or warnings. Ensure a minimum contrast ratio of 4.5:1 between text and background according to WCAG. |
 
 <img width="203" height="470" alt="mala eleccion de colores" src="https://github.com/user-attachments/assets/69d910f3-2a74-47c1-9756-b17078cec97e" />
-
-According to WCAG accessibility guidelines, the team reserved the use of red for error contexts, warnings, or actions such as declining turn changes, avoiding its use in situations where it could convey an incorrect or ambiguous meaning. Furthermore, information does not depend solely on color to be understood by the user. The use of red was changed to other, more friendly colors according to the context.
-
 <img width="317" height="692" alt="image" src="https://github.com/user-attachments/assets/2559dcbe-551d-479a-af55-50a22dcf2056" />
 
+According to WCAG accessibility guidelines, the team reserved the use of red for error contexts, warnings, or actions such as declining turn changes, avoiding its use in situations where it could convey an incorrect or ambiguous meaning. Furthermore, information does not depend solely on color to be understood by the user. The use of red was changed to other, more friendly colors according to the context.
 
 
 ### 8.5. Ambiguous visual element
@@ -361,6 +357,13 @@ According to WCAG accessibility guidelines, the team reserved the use of red for
 |---|---|---|
 | "Modify Information" button or text; can't tell if it's a button or just text. | There is no typical box to signal to the user that this section is clickable. | Apply standard visual affordances: visible border, shaded or filled background, pointer cursor, and clear label (e.g., "Modify >" or pencil icon). Avoid making actionable elements appear as plain text without any distinguishing shape or shading. |
 
-TBA
+<img width="516" height="805" alt="MODIFICAR" src="https://github.com/user-attachments/assets/4c525cf5-98aa-4c5b-b939-56caafb965a4" /> 
+<img width="360" height="783" alt="image" src="https://github.com/user-attachments/assets/d007cbe5-dd7d-4104-9ef6-8f0f83a902fd" />
+
+Since the ambiguous element in question was a button, the edges of the container were highlighted to create contrast with the screen background.
+
+
+
+
 
 *Course: User Experience Design | 2026*
