@@ -28,7 +28,7 @@ Offline time, shift and pay management system for new and veteran seasonal worke
   - [8.3. Non-static header](#83-non-static-header)
   - [8.4. Unjustified color palette](#84-unjustified-color-palette)
   - [8.5. Ambiguous visual element](#85-ambiguous-visual-element)
-
+- [9. Accesibility](#9-accesibility)
 ---
 
 ## 1. Introduction
@@ -313,7 +313,11 @@ The project's heuristic evaluation was conducted by an independent team, taking 
 |---|---|---|
 | Texts too small (no adjustment option). | Small text can cause frustration and anger, especially for people with vision problems. | Implement responsive typography with accessible minimum size (16px on mobile) and allow adjustment from system settings or internal font scale selector. |
 
-TBA
+<img width="411" height="825" alt="texto pequeño" src="https://github.com/user-attachments/assets/f5d8606a-8a99-4c0a-bb7f-b1555178675d" />
+<img width="360" height="782" alt="image" src="https://github.com/user-attachments/assets/8eac318d-c117-4693-a425-49144407f00e" />
+
+The issue of the size of the characters displayed on the screen was resolved by setting the font size of the sentences in each section of the application to 16 pixels. Additionally, since this might not be sufficient for users with visual impairments or low vision, the team implemented an option to increase the font size in the user settings (see section 9. Accesibility).
+
 
 ### 8.2. Navbar implemented incorrectly
 
@@ -362,8 +366,12 @@ According to WCAG accessibility guidelines, the team reserved the use of red for
 
 Since the ambiguous element in question was a button, the edges of the container were highlighted to create contrast with the screen background.
 
+---
 
+## 9. Accessibility
 
+TBA
 
+---
 
 *Course: User Experience Design | 2026*
