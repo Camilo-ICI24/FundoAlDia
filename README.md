@@ -314,9 +314,9 @@ The project's heuristic evaluation was conducted by an independent team, taking 
 | Texts too small (no adjustment option). | Small text can cause frustration and anger, especially for people with vision problems. | Implement responsive typography with accessible minimum size (16px on mobile) and allow adjustment from system settings or internal font scale selector. |
 
 <img width="411" height="825" alt="texto pequeño" src="https://github.com/user-attachments/assets/f5d8606a-8a99-4c0a-bb7f-b1555178675d" />
-<img width="360" height="782" alt="image" src="https://github.com/user-attachments/assets/8eac318d-c117-4693-a425-49144407f00e" />
+<img width="360" height="781" alt="image" src="https://github.com/user-attachments/assets/3100adb2-6720-4597-b6ad-1616008a3664" />
 
-The issue of the size of the characters displayed on the screen was resolved by setting the font size of the sentences in each section of the application to 16 pixels. Additionally, since this might not be sufficient for users with visual impairments or low vision, the team implemented an option to increase the font size in the user settings (see section 9. Accesibility).
+The issue of the size of the characters displayed on the screen was resolved by adjusting the font size to a larger value (approximately 14 to 16 pixels) to turn it visible. Additionally, since this might not be sufficient for users with visual impairments or low vision, the team implemented an option to increase the font size in the user settings (see section 9. Accesibility).
 
 
 ### 8.2. Navbar implemented incorrectly
@@ -350,7 +350,7 @@ As with the non-static navbar, this problem was solved by converting the applica
 | Poor choice of colors. | The background uses an unusual color; red can cause anxiety in some people and contrasts poorly with other elements. | Replace red with neutral colors or highly legible institutional tones (i.e.: white, light gray, serenity blue), reserving red exclusively for error messages or warnings. Ensure a minimum contrast ratio of 4.5:1 between text and background according to WCAG. |
 
 <img width="203" height="470" alt="mala eleccion de colores" src="https://github.com/user-attachments/assets/69d910f3-2a74-47c1-9756-b17078cec97e" />
-<img width="317" height="692" alt="image" src="https://github.com/user-attachments/assets/2559dcbe-551d-479a-af55-50a22dcf2056" />
+<img width="358" height="782" alt="image" src="https://github.com/user-attachments/assets/95a14ef5-f086-48b4-8031-021f99421bf9" />
 
 According to WCAG accessibility guidelines, the team reserved the use of red for error contexts, warnings, or actions such as declining turn changes, avoiding its use in situations where it could convey an incorrect or ambiguous meaning. Furthermore, information does not depend solely on color to be understood by the user. The use of red was changed to other, more friendly colors according to the context.
 
@@ -359,18 +359,37 @@ According to WCAG accessibility guidelines, the team reserved the use of red for
 
 |  Problem | Description | Solution |
 |---|---|---|
-| "Modify Information" button or text; can't tell if it's a button or just text. | There is no typical box to signal to the user that this section is clickable. | Apply standard visual affordances: visible border, shaded or filled background, pointer cursor, and clear label (e.g., "Modify >" or pencil icon). Avoid making actionable elements appear as plain text without any distinguishing shape or shading. |
+| "Modificar Información" button or text; can't tell if it's a button or just text. | There is no typical box to signal to the user that this section is clickable. | Apply standard visual affordances: visible border, shaded or filled background, pointer cursor, and clear label (e.g., "Modify >" or pencil icon). Avoid making actionable elements appear as plain text without any distinguishing shape or shading. |
 
 <img width="516" height="805" alt="MODIFICAR" src="https://github.com/user-attachments/assets/4c525cf5-98aa-4c5b-b939-56caafb965a4" /> 
 <img width="360" height="783" alt="image" src="https://github.com/user-attachments/assets/d007cbe5-dd7d-4104-9ef6-8f0f83a902fd" />
 
-Since the ambiguous element in question was a button, the edges of the container were highlighted to create contrast with the screen background.
+The element was redesigned using a button-like appearance, including visible borders, increased contrast, and a clearer visual hierarchy, allowing users to immediately recognize it as an interactive component.
+
+### 8.6. No administrator profile
+
+|  Problem | Solution |
+|---|---|
+| Only the workers' perspective was presented; that is, the entire administrator's part was missing. | Develop a secondary navigation flow, focused on the main actions of the administrator within the application. |
+
+<img width="377" height="827" alt="image" src="https://github.com/user-attachments/assets/eaad0155-29fb-448c-bfff-c60aacf05c7d" />
+<img width="378" height="827" alt="image" src="https://github.com/user-attachments/assets/8c524179-6202-4209-83e2-97d30f8526da" />
+
+
+Part of the feedback received during the first progress report was that only the seasonal worker's view was built, not the administrator's. To fix this issue, new screens were developed specifically for administrators, including features such as viewing the seasonal worker performance dashboard, contract status, received permits, shift change requests, and other functionalities.
 
 ---
 
 ## 9. Accessibility
 
-TBA
+The accessibility improvements of the project focus on enhancing legibility, contrast, and overall usability for users with different visual conditions, with the goal of reducing interaction barriers and minimizing cognitive load throughout the system.
+
+The following section describes the main accessibility decisions implemented during the design and development of the mobile application, all of which aim to improve readability, visual clarity, and interaction consistency across different devices and user conditions.
+
+- **Font size adjustment option:** The system includes a configurable font size feature that allows users to increase or decrease text size based on their individual visual needs. This ensures better adaptability for users with low vision, reading difficulties, or personal preferences regarding text scaling.
+- **Minimum font size and typographic hierarchy:** A minimum font size baseline was defined to improve readability across the interface. Primary content was standardized to a 16px base size, while secondary elements such as labels and helper text were adjusted to 14px. This typographic hierarchy helps maintain clarity while preserving visual structure, especially on smaller or low-end devices.
+- **Color contrast improvements:** The color palette was refined to improve readability and visual separation between elements. Text-background combinations were adjusted to increase contrast and reduce strain during prolonged use. These changes follow WCAG accessibility principles, ensuring that content remains legible under different lighting conditions and screen qualities.
+- **Clear and distinguishable interactive elements:** Interactive components such as buttons were redesigned to improve visual affordance. Styling adjustments (such as borders, spacing, and visual hierarchy) were applied to ensure that clickable elements are clearly distinguishable from static text, reducing ambiguity and improving overall usability.
 
 ---
 
