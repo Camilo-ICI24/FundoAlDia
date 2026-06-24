@@ -28,7 +28,8 @@ Offline time, shift and pay management system for new and veteran seasonal worke
   - [8.3. Non-static header](#83-non-static-header)
   - [8.4. Unjustified color palette](#84-unjustified-color-palette)
   - [8.5. Ambiguous visual element](#85-ambiguous-visual-element)
-- [9. Accesibility](#9-accesibility)
+  - [8.6. No administrator profile](#86-no-administrator-profile)
+- [9. Accessibility](#9-accessibility)
 ---
 
 ## 1. Introduction
